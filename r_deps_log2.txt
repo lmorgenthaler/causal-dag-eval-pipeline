@@ -1,0 +1,70 @@
+rCausalMGM on CRAN: TRUE 
+Installing package into ‘/home/lauren-morgenthaler/R/x86_64-pc-linux-gnu-library/4.3’
+(as ‘lib’ is unspecified)
+also installing the dependencies ‘BH’, ‘RcppArmadillo’, ‘RcppThread’
+
+trying URL 'https://cloud.r-project.org/src/contrib/BH_1.90.0-1.tar.gz'
+Content type 'application/x-gzip' length 14307014 bytes (13.6 MB)
+==================================================
+downloaded 13.6 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/RcppArmadillo_15.6.0-1.tar.gz'
+Content type 'application/x-gzip' length 1096426 bytes (1.0 MB)
+==================================================
+downloaded 1.0 MB
+
+trying URL 'https://cloud.r-project.org/src/contrib/RcppThread_2.4.0.tar.gz'
+Content type 'application/x-gzip' length 315632 bytes (308 KB)
+==================================================
+downloaded 308 KB
+
+trying URL 'https://cloud.r-project.org/src/contrib/rCausalMGM_1.0.1.tar.gz'
+Content type 'application/x-gzip' length 279137 bytes (272 KB)
+==================================================
+downloaded 272 KB
+
+* installing *source* package ‘BH’ ...
+** package ‘BH’ successfully unpacked and MD5 sums checked
+** using staged installation
+** inst
+** help
+*** installing help indices
+** building package indices
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (BH)
+ERROR: failed to lock directory ‘/home/lauren-morgenthaler/R/x86_64-pc-linux-gnu-library/4.3’ for modifying
+Try removing ‘/home/lauren-morgenthaler/R/x86_64-pc-linux-gnu-library/4.3/00LOCK-RcppArmadillo’
+* installing *source* package ‘RcppThread’ ...
+** package ‘RcppThread’ successfully unpacked and MD5 sums checked
+** using staged installation
+** libs
+using C++ compiler: ‘g++ (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0’
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG -I../inst/include      -fpic  -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/r-base-FPSnzf/r-base-4.3.3=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/r-base-FPSnzf/r-base-4.3.3=/usr/src/r-base-4.3.3-2build2 -Wdate-time -D_FORTIFY_SOURCE=3  -c detectCores.cpp -o detectCores.o
+g++ -std=gnu++17 -I"/usr/share/R/include" -DNDEBUG -I../inst/include      -fpic  -g -O2 -fno-omit-frame-pointer -mno-omit-leaf-frame-pointer -ffile-prefix-map=/build/r-base-FPSnzf/r-base-4.3.3=. -fstack-protector-strong -fstack-clash-protection -Wformat -Werror=format-security -fcf-protection -fdebug-prefix-map=/build/r-base-FPSnzf/r-base-4.3.3=/usr/src/r-base-4.3.3-2build2 -Wdate-time -D_FORTIFY_SOURCE=3  -c testGlobal.cpp -o testGlobal.o
+g++ -std=gnu++17 -shared -L/usr/lib/R/lib -Wl,-Bsymbolic-functions -flto=auto -ffat-lto-objects -Wl,-z,relro -o RcppThread.so detectCores.o testGlobal.o -latomic -lpthread -L/usr/lib/R/lib -lR
+installing to /home/lauren-morgenthaler/R/x86_64-pc-linux-gnu-library/4.3/00LOCK-RcppThread/00new/RcppThread/libs
+** R
+** inst
+** byte-compile and prepare package for lazy loading
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** checking absolute paths in shared objects and dynamic libraries
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (RcppThread)
+ERROR: dependency ‘RcppArmadillo’ is not available for package ‘rCausalMGM’
+* removing ‘/home/lauren-morgenthaler/R/x86_64-pc-linux-gnu-library/4.3/rCausalMGM’
+
+The downloaded source packages are in
+	‘/tmp/RtmppnKUP3/downloaded_packages’
+Warning messages:
+1: In install.packages("rCausalMGM", repos = r) :
+  installation of package ‘RcppArmadillo’ had non-zero exit status
+2: In install.packages("rCausalMGM", repos = r) :
+  installation of package ‘rCausalMGM’ had non-zero exit status
+DONE2

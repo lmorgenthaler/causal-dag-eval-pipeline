@@ -43,3 +43,7 @@ nonadditive_nodes:
   - detect_mrm_stone
   - detect_long_term_health_outcomes
   - loss_of_mission_objectives
+  - bone_remodeling   # non-monotone variant
+  - urine_chemistry   # non-monotone variant
+  - urine_concentration   # non-monotone variant
+  - mineralized_renal_material   # non-monotone variant
