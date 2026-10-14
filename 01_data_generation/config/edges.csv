@@ -15,7 +15,7 @@ hsia_risk,crew_health_and_performance_system,engineered,continuous,,era_fixed,li
 hsia_risk,vehicle_design,engineered,continuous,,era_fixed,linear
 hostile_closed_environment,hydration,biological,continuous,-0.25,given,linear
 humidity,hydration,biological,continuous,0.15,given,linear
-hydration,urine_concentration,biological,continuous,0.45,given,u_shape
+hydration,urine_concentration,biological,continuous,0.45,given,u_shape_sym
 individual_factors,nephrolithiasis,biological,binary,0.8,given,linear
 k_citrate,urine_chemistry,biological,continuous,-0.4,given,linear
 medical_prevention_capability,bisphosphonates,decision,binary,,era_table,linear
@@ -25,7 +25,7 @@ medical_prevention_capability,thiazides,decision,binary,,era_table,linear
 medical_prevention_capability,urine_chemistry,decision,continuous,-0.2,given,linear
 medical_prevention_capability,water_intake,decision,continuous,0.4,given,linear
 medical_treatment_capability,water_intake,decision,continuous,0.2,given,linear
-microbiome,urine_chemistry,biological,continuous,0.35,given,u_shape
+microbiome,urine_chemistry,biological,continuous,0.35,given,u_shape_sym
 microhost_risk,microbiome,biological,continuous,0.4,given,linear
 mineralized_renal_material,nephrolithiasis,biological,binary,1.2,given,linear
 mission_era,altered_gravity,engineered (era assignment),continuous,,era_table,linear
@@ -39,7 +39,7 @@ mission_era,medical_prevention_capability,engineered (era assignment),continuous
 mission_era,medical_treatment_capability,engineered (era assignment),continuous,,era_table,linear
 mission_era,pharm_risk,engineered (era assignment),continuous,,era_table,linear
 mission_era,vehicle_design,engineered (era assignment),continuous,,era_table,linear
-nutrients,bone_remodeling,biological,continuous,0.35,given,inverted_u
+nutrients,bone_remodeling,biological,continuous,0.35,given,inverted_u_sym
 pharm_risk,medical_prevention_capability,engineered,continuous,,era_fixed,linear
 pharm_risk,medical_treatment_capability,engineered,continuous,,era_fixed,linear
 pre_flight_fitness,resistive_exercise,biological,continuous,0.4,given,linear
